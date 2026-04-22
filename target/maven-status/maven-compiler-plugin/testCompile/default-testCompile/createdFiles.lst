@@ -1,0 +1,6 @@
+com\expandtesting\tests\BaseTest.class
+com\expandtesting\tests\AlertTests.class
+com\expandtesting\tests\FormInteractionTests.class
+com\expandtesting\tests\NotesTests.class
+com\expandtesting\tests\DynamicElementsTests.class
+com\expandtesting\tests\AuthTests.class

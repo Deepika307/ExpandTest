@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Expand Testing Automation Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.expandtesting.framework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="ExpandTestingModules">
+        <classes>
+            <class name="com.expandtesting.tests.AuthTests"/>
+            <class name="com.expandtesting.tests.NotesTests"/>
+            <class name="com.expandtesting.tests.FormInteractionTests"/>
+            <class name="com.expandtesting.tests.AlertTests"/>
+            <class name="com.expandtesting.tests.DynamicElementsTests"/>
+        </classes>
+    </test>
+</suite>

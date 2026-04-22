@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T21:40:14 IST" name="Surefire suite" finished-at="2026-04-22T21:40:31 IST" duration-ms="17126">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T21:40:14 IST" name="Surefire test" finished-at="2026-04-22T21:40:31 IST" duration-ms="17126">
+      <class name="com.expandtesting.tests.DynamicElementsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:14 IST" name="setUp" finished-at="2026-04-22T21:40:18 IST" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDragAndDropCircles()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:18 IST" name="verifyDragAndDropCircles" finished-at="2026-04-22T21:40:21 IST" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDragAndDropCircles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:21 IST" name="tearDown" finished-at="2026-04-22T21:40:21 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:21 IST" name="setUp" finished-at="2026-04-22T21:40:23 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDynamicLoadingExample()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:23 IST" name="verifyDynamicLoadingExample" finished-at="2026-04-22T21:40:31 IST" duration-ms="8335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDynamicLoadingExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@4ddced80]" started-at="2026-04-22T21:40:31 IST" name="tearDown" finished-at="2026-04-22T21:40:31 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.DynamicElementsTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

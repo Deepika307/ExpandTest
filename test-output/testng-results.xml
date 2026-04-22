@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T21:57:49 IST" name="Expand Testing Automation Suite" finished-at="2026-04-22T21:59:05 IST" duration-ms="75695">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T21:57:49 IST" name="ExpandTestingModules" finished-at="2026-04-22T21:59:05 IST" duration-ms="75695">
+      <class name="com.expandtesting.tests.AuthTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:14 IST" name="setUp" finished-at="2026-04-22T21:58:15 IST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:15 IST" name="verifyLoginScenarios" data-provider="loginCredentials" finished-at="2026-04-22T21:58:23 IST" duration-ms="7743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[practice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[You logged into a secure area!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:23 IST" name="tearDown" finished-at="2026-04-22T21:58:23 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:23 IST" name="setUp" finished-at="2026-04-22T21:58:24 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:24 IST" name="verifyLoginScenarios" data-provider="loginCredentials" finished-at="2026-04-22T21:58:32 IST" duration-ms="7080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[practice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your password is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:32 IST" name="tearDown" finished-at="2026-04-22T21:58:32 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:32 IST" name="setUp" finished-at="2026-04-22T21:58:33 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:33 IST" name="verifyLoginScenarios" data-provider="loginCredentials" finished-at="2026-04-22T21:58:40 IST" duration-ms="7440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:40 IST" name="tearDown" finished-at="2026-04-22T21:58:41 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:41 IST" name="setUp" finished-at="2026-04-22T21:58:42 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutEndsSession()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:42 IST" name="verifyLogoutEndsSession" finished-at="2026-04-22T21:58:55 IST" duration-ms="12528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutEndsSession -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AuthTests@62ddbd7e]" started-at="2026-04-22T21:58:55 IST" name="tearDown" finished-at="2026-04-22T21:58:55 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.AuthTests -->
+      <class name="com.expandtesting.tests.DynamicElementsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:57:50 IST" name="setUp" finished-at="2026-04-22T21:57:53 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDragAndDropCircles()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:57:53 IST" name="verifyDragAndDropCircles" finished-at="2026-04-22T21:57:57 IST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDragAndDropCircles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:57:57 IST" name="tearDown" finished-at="2026-04-22T21:57:57 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:57:57 IST" name="setUp" finished-at="2026-04-22T21:57:58 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDynamicLoadingExample()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:57:58 IST" name="verifyDynamicLoadingExample" finished-at="2026-04-22T21:58:07 IST" duration-ms="8088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDynamicLoadingExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.DynamicElementsTests@5e5d171f]" started-at="2026-04-22T21:58:07 IST" name="tearDown" finished-at="2026-04-22T21:58:07 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.DynamicElementsTests -->
+      <class name="com.expandtesting.tests.AlertTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:07 IST" name="setUp" finished-at="2026-04-22T21:58:08 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyJavaScriptAlertAcceptFlow()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:08 IST" name="verifyJavaScriptAlertAcceptFlow" finished-at="2026-04-22T21:58:12 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptAlertAcceptFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:12 IST" name="tearDown" finished-at="2026-04-22T21:58:12 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:12 IST" name="setUp" finished-at="2026-04-22T21:58:13 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyJavaScriptConfirmDismissFlow()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:13 IST" name="verifyJavaScriptConfirmDismissFlow" finished-at="2026-04-22T21:58:17 IST" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptConfirmDismissFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:17 IST" name="tearDown" finished-at="2026-04-22T21:58:17 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:17 IST" name="setUp" finished-at="2026-04-22T21:58:18 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyJavaScriptPromptAcceptFlow()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:18 IST" name="verifyJavaScriptPromptAcceptFlow" finished-at="2026-04-22T21:58:21 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJavaScriptPromptAcceptFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.AlertTests@7770f470]" started-at="2026-04-22T21:58:21 IST" name="tearDown" finished-at="2026-04-22T21:58:22 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.AlertTests -->
+      <class name="com.expandtesting.tests.NotesTests">
+        <test-method is-config="true" signature="loadRegistrationData()[pri:0, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:22 IST" name="loadRegistrationData" finished-at="2026-04-22T21:58:23 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadRegistrationData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:23 IST" name="setUp" finished-at="2026-04-22T21:58:24 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUserForNotesApp()[pri:1, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:24 IST" name="registerUserForNotesApp" finished-at="2026-04-22T21:58:30 IST" duration-ms="5701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserForNotesApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:30 IST" name="tearDown" finished-at="2026-04-22T21:58:30 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:30 IST" name="setUp" finished-at="2026-04-22T21:58:32 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createEditDeleteAndFilterNotes()[pri:2, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:58:32 IST" name="createEditDeleteAndFilterNotes" finished-at="2026-04-22T21:59:04 IST" depends-on-methods="com.expandtesting.tests.NotesTests.registerUserForNotesApp" duration-ms="32793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEditDeleteAndFilterNotes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.NotesTests@247bddad]" started-at="2026-04-22T21:59:04 IST" name="tearDown" finished-at="2026-04-22T21:59:05 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.NotesTests -->
+      <class name="com.expandtesting.tests.FormInteractionTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:57:50 IST" name="setUp" finished-at="2026-04-22T21:57:53 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckboxInteraction()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:57:53 IST" name="verifyCheckboxInteraction" finished-at="2026-04-22T21:57:57 IST" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckboxInteraction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:57:57 IST" name="tearDown" finished-at="2026-04-22T21:57:58 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:57:58 IST" name="setUp" finished-at="2026-04-22T21:57:59 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDropdownSelection()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:57:59 IST" name="verifyDropdownSelection" finished-at="2026-04-22T21:58:02 IST" duration-ms="3438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropdownSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:02 IST" name="tearDown" finished-at="2026-04-22T21:58:03 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:03 IST" name="setUp" finished-at="2026-04-22T21:58:04 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInputsAcceptValues()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:04 IST" name="verifyInputsAcceptValues" finished-at="2026-04-22T21:58:09 IST" duration-ms="4853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputsAcceptValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:09 IST" name="tearDown" finished-at="2026-04-22T21:58:09 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:09 IST" name="setUp" finished-at="2026-04-22T21:58:10 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRadioButtonSingleSelection()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:10 IST" name="verifyRadioButtonSingleSelection" finished-at="2026-04-22T21:58:14 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonSingleSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.expandtesting.tests.FormInteractionTests@d35dea7]" started-at="2026-04-22T21:58:14 IST" name="tearDown" finished-at="2026-04-22T21:58:14 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expandtesting.tests.FormInteractionTests -->
+    </test> <!-- ExpandTestingModules -->
+  </suite> <!-- Expand Testing Automation Suite -->
+</testng-results>
